@@ -26,5 +26,13 @@
   "directories": {
     "test": "test"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antialias/assert-expect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antialias/assert-expect/issues"
+  },
+  "homepage": "https://github.com/antialias/assert-expect#readme"
 }
