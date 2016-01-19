@@ -1,0 +1,30 @@
+{
+  "name": "assert-expect",
+  "version": "1.0.0",
+  "description": "exposes qunit-style assert.expect",
+  "author": "Thomas Hallock - 1stdibs.com, Inc.",
+  "scripts": {
+    "test": "mocha",
+    "gitlint": "dibslint --git --warnings",
+    "lint": "dibslint --root=."
+  },
+  "main": "index.js",
+  "pre-commit": {
+    "run": [
+      "gitlint"
+    ]
+  },
+  "devDependencies": {
+    "dibslint": "^1.2.4",
+    "mocha": "^2.3.4",
+    "pre-commit": "^1.1.2"
+  },
+  "dependencies": {
+    "lodash.assign": "^4.0.0",
+    "lodash.mapvalues": "^4.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
+}
