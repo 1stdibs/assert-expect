@@ -13,5 +13,5 @@ assert.expect(2);
 assert(true);
 assert(true);
 assert(true);
-assert.finished(); // throws exception because only 2 asserts were expected.
+assert.finished(); // throws exception because 2 asserts were expected, but three were made.
 ```
