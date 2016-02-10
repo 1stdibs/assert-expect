@@ -12,6 +12,7 @@ var assert = assign(function () {
     return property.apply(originalAssert, arguments);
   };
 }));
+var expecting;
 assert.expect = function (count) {
   numcalls = 0;
   expecting = count;
