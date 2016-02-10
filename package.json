@@ -1,6 +1,6 @@
 {
   "name": "assert-expect",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "exposes qunit-style assert.expect",
   "author": "Thomas Hallock - 1stdibs.com, Inc.",
   "scripts": {
