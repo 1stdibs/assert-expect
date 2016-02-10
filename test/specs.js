@@ -2,16 +2,16 @@
 var assert = require('../index');
 describe("assert-expect", function () {
     it("should expose an expect property that asserts that assert has been called n times since finished was run", function () {
-      var excepcionThrown;
+      var exceptionThrown;
       assert(assert.expect);
       assert.finished();
       assert.expect(3);
       try {
         assert.finished();
       } catch (e) {
-        excepcionThrown = true;
+        exceptionThrown = true;
       }
-      assert(excepcionThrown);
+      assert(exceptionThrown);
       assert.finished();
       assert.expect(2);
       assert(true);
