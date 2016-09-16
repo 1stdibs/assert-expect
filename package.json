@@ -2,7 +2,7 @@
   "name": "assert-expect",
   "version": "1.0.5",
   "description": "exposes qunit-style assert.expect",
-  "author": "Thomas Hallock - 1stdibs.com, Inc.",
+  "author": "1stdibs.com, Inc.",
   "scripts": {
     "test": "mocha",
     "gitlint": "dibslint --git --warnings",
@@ -26,13 +26,13 @@
   "directories": {
     "test": "test"
   },
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antialias/assert-expect.git"
+    "url": "git+https://github.com/1stdibs/assert-expect.git"
   },
   "bugs": {
-    "url": "https://github.com/antialias/assert-expect/issues"
+    "url": "https://github.com/1stdibs/assert-expect/issues"
   },
-  "homepage": "https://github.com/antialias/assert-expect#readme"
+  "homepage": "https://github.com/1stdibs/assert-expect#readme"
 }
